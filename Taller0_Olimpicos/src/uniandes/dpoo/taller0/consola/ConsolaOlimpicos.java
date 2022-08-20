@@ -63,7 +63,7 @@ public class ConsolaOlimpicos
 				else if (opcion_seleccionada == 12 && calculadora != null)
 					ejecutarPorcentajeMedallistas();
 				else if (opcion_seleccionada == 14 && calculadora != null)
-					ejecutarTaller0();
+					ejecutarTaller1();
 				else if (opcion_seleccionada == 13)
 				{
 					System.out.println("Saliendo de la aplicación ...");
@@ -109,7 +109,7 @@ public class ConsolaOlimpicos
 	}
 	
 	
-	private void ejecutarTaller0()
+	private void ejecutarTaller1()
 	{
 		System.out.println("\n" + "Nacionalidad de un atleta" + "\n");
 		
