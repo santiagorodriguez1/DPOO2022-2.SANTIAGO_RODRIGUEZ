@@ -9,8 +9,8 @@ import uniandes.dpoo.taller0.procesamiento.CalculadoraEstadisticas;
 public class Modificacion {
 	public static void main(String[]args) throws FileNotFoundException, IOException
 	{
-		CalculadoraEstadisticas cal=LoaderOlimpicos.cargarArchivo("./data/atletas.csv");
-		System.out.println(cal.paisConMasMedallistas());
+		CalculadoraEstadisticas calc=LoaderOlimpicos.cargarArchivo("./data/atletas.csv");
+		System.out.println(calc.paisConMasMedallistas());
 				
 	}
 
